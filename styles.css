@@ -238,22 +238,5 @@ strong {
       }   
   
 
-    /* the order of the items is adjusted here responsiveness!
-since the sidebars would be too small on a mobile device.
-feel free to play around with the order!
-*/
-    main {
-        order: 1;
-    }
-
-    #leftSidebar {
-        order: 2;
-    }
-
-    #rightSidebar {
-        order: 3;
-    }
-    #navbar ul {
-        flex-wrap: nowrap;
-    }
+    
 }
