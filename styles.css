@@ -205,6 +205,8 @@ strong {
 
   #container {
     max-width: 340px;
+    min-height: none;
+    overflow: auto;
   }
 
 }
