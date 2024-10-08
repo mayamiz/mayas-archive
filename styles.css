@@ -204,7 +204,7 @@ strong {
 @media only screen and (max-width: 800px) {
 
   #container {
-    max-width: 70vh;
+    max-width: 70%;
     min-height: none;
     overflow: auto;
   }
