@@ -157,7 +157,7 @@ footer {
     border-style: groove;
     border-color: rgb(135, 60, 185);
     display: flex;
-    margin: auto;
+    margin-top: auto;
 }
 
 h1,
