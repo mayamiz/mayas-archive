@@ -209,5 +209,8 @@ strong {
     height: 15vh;
     width: 150px;
   }
+  footer {
+    width: 80%;
+  }
 }
 
