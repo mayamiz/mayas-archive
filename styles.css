@@ -208,6 +208,9 @@ strong {
     min-height: none;
     overflow: auto;
   }
-
+  main {
+    height: 15vh;
+    width: 150px;
+  }
 }
 
