@@ -204,7 +204,7 @@ strong {
 @media only screen and (max-width: 800px) {
 
   #container {
-    width: 340px;
+    max-width: 340px;
   }
 
 }
