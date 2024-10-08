@@ -197,18 +197,61 @@ strong {
    
 }
 @media only screen and (max-width: 800px) {
+    #flex {
+        flex-wrap: wrap;
+    }
 
-  #container {
-    max-width: 70%;
-    min-height: none;
-    overflow: auto;
-  }
-  main {
+    aside {
+        width: 100%;
+    } 
+    
+    #navbar {
+      height: 12vh;
+      display: flex;
+        flex-direction: wrap;
+    }
+      #navbar ul {
+        display: flex;
+        flex-direction: wrap;
+       } 
+     #header { 
     height: 15vh;
-    width: 150px;
-  }
-  footer {
-    width: 80%;
-  }
+    width: 100%;
+     }
+    main {
+      height: 20vh;
+    }
+      #sources {
+        height: 100vh;
+        display: flex;
+        overflow: auto;
+      }   
+  
+     #frame {
+         display: none;
+     }
+       
+  
+
+    /* the order of the items is adjusted here responsiveness!
+since the sidebars would be too small on a mobile device.
+feel free to play around with the order!
+*/
+    main {
+        order: 1;
+    }
+
+    #leftSidebar {
+        order: 2;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+    
+
+    #navbar ul {
+        flex-wrap: nowrap;
+    }
 }
 
