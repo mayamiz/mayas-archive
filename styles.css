@@ -16,12 +16,11 @@ body {
     font-family: 'princessSofia', sans-serif;
     margin: 0;
     height: 100vh;
-    display: grid;
     place-content: center;
     align-items: center;
-    grid-auto-flow: column;
-    grid-gap: 30px;
     background: pink;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
