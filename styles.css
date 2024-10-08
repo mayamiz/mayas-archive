@@ -1,6 +1,6 @@
 @font-face {
-  font-family: princessSofia;
-  src: url('princessSofia-Regular.ttf') format('truetype');
+  font-family: shantellSans;
+  src: url('ShantellSans.ttf') format('truetype');
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   } 
 
 body {
-    font-family: 'princessSofia', sans-serif;
+    font-family: 'shantellSans', sans-serif;
     margin: 0;
     height: 100vh;
     place-content: center;
