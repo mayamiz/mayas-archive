@@ -22,9 +22,9 @@
     }
   
   #container {
-    aspect-ratio: auto;
+      aspect-ratio: auto;
       max-width: 900px;
-      margin: 0 auto;
+      margin: 15px auto;
       Min-height: 50svh;
       --r: 11px;
       padding: calc(2 * var(--r));
@@ -56,11 +56,11 @@
   #navbar {
       height: 50px;
       background-color: #8967B3;
-      margin-top: 0%;
+      margin: 0;
       border-style: none solid solid solid;
       border-color: rgb(135, 60, 185);
       width: 100%;
-      font-family: serverMono;
+      font-family: monoSpace;
   }
   
   #navbar ul {
@@ -72,16 +72,15 @@
   }
   
   #navbar li {
-      padding-top: 10px;
+      padding-top: 12px;
   }
   
   /* navigation links*/
   #navbar li a {
       color: #00e760;
-      /* navbar text color */
       font-weight: 800;
       text-decoration: none;
-      /* this removes the underline */
+      font-size: 20px;
   }
   
   /* navigation link when a link is hovered over */
@@ -101,7 +100,7 @@
       font-size: smaller;
       border-style: groove;
       border-color: rgb(135, 60, 185);
-      margin: auto;
+      margin: 0;  
   }
   
   
@@ -150,7 +149,7 @@
       border-style: groove;
       border-color: rgb(135, 60, 185);
       display: flex;
-      margin-top: auto;
+      margin: 0;
   }
   
   h1,
@@ -195,4 +194,13 @@
      
   }
  
-  
+  @media only screen and (max-width: 750px) {
+    #navbar li a {
+        font-size: 15px;
+    }
+    main {
+        background-image: none;
+        background-color: #8967B3;
+    }
+
+  }
