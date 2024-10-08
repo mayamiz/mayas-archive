@@ -143,8 +143,7 @@
   
   footer {
       background-color: #8967B3;
-      /* background color for footer */
-      width: 95%;
+      width: auto;
       height: 40px;
       padding: 20px;
       text-align: center;
