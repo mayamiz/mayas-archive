@@ -16,11 +16,8 @@ body {
     font-family: 'serverMonos', sans-serif;
     margin: 0;
     height: 100vh;
-    place-content: center;
-    align-items: center;
     background: pink;
     display: flex;
-    justify-content: center;
 }
 
 h1 {
