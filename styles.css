@@ -13,11 +13,9 @@
   } 
 
 body {
-    font-family: 'serverMonos', sans-serif;
+    font-family: 'serverMono', sans-serif;
     margin: 0;
-    height: 100vh;
-    background: pink;
-    display: flex;
+    background: pink;    
 }
 
 h1 {
