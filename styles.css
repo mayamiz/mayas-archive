@@ -95,7 +95,7 @@
   
   aside {
       background-color: #8967B3;
-      width: 220px;
+      width: auto;
       padding: 15px;
       font-family: 'emilysCandy', sans-serif;
       font-size: smaller;
@@ -222,10 +222,5 @@ p {
         width: 60%;
         padding-top: 10px;      
     }
-
-aside {
-width: 150px;
-
-} 
 
   }
