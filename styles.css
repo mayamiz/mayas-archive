@@ -49,8 +49,8 @@
       background-image: url(container.png);
       background-size: 100%;
       position: center;
-      border-style: groove;
-      border-color: rgb(135, 60, 185);
+      border: 10px groove;
+      border-color: rgb(202, 92, 202);
   }
   
   
@@ -59,8 +59,8 @@
       background-color: #8967B3;
       margin: 0;
       padding-bottom: 10px;
-      border-style: none solid solid solid;
-      border-color: rgb(135, 60, 185);
+      border: 10px rgb(202, 92, 202);
+      border-style: none groove groove groove;
       width: auto;
       font-family: monoSpace;
   }
@@ -99,8 +99,8 @@
       padding: 15px;
       font-family: 'emilysCandy', sans-serif;
       font-size: smaller;
-      border-style: groove;
-      border-color: rgb(135, 60, 185);
+      border: 10px rgb(202, 92, 202);
+      border-style: none groove groove groove;
       margin: 0;  
   }
   
@@ -113,8 +113,6 @@
       flex: 1;
       padding: 20px;
       order: 2;
-      border-style: groove;
-      border-color: rgb(135, 60, 185);
   }
   
   #leftSidebar {
@@ -144,10 +142,9 @@
       height: 40px;
       padding: 20px;
       text-align: center;
-      border-style: groove;
-      border-color: rgb(135, 60, 185);
       display: flex;
       margin: 0;
+      box-shadow: 0 0 0 2px rgb(202, 92, 202), 8px 8px 0 0 rgb(202, 92, 202);
   }
   
   h1,
@@ -208,6 +205,8 @@ p {
       align-items: flex-start;
       flex-direction: column;
   }
+
+  
   @media only screen and (max-width: 750px) {
     #navbar li a {
         font-size: 15px;
