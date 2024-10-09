@@ -228,6 +228,7 @@ p {
 
 .box {
 font-size: 10px;
+list-style-position: outside;
 } 
 
   }
