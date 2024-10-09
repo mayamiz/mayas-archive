@@ -76,15 +76,12 @@
   #navbar li {
       padding-top: 12px;
   }
-  
-  /* navigation links*/
   #navbar li a {
       color: #00e760;
       text-decoration: none;
       font-size: 20px;
   }
   
-  /* navigation link when a link is hovered over */
   #navbar li a:hover {
       text-decoration: underline;
   }
@@ -101,7 +98,7 @@
       font-size: smaller;
       border: 10px rgb(202, 92, 202);
       border-style: none groove groove groove;
-      margin: 0;  
+      margin: 0 auto;  
   }
   
   main {
@@ -219,18 +216,22 @@ p {
         background-color: #8967B3;
     }
     #abutton {
-        width: 60%;
+        width: 10vw;
     }
     #stamp {
-        width: 60%;     
+        width: 10vw;     
     }
     .box {
         padding: 0px;
         font-size: 10px;    
+        text-align: center;
+    }
+
+    .box ul {
+        list-style-position: outside;
     }
 
     #rightSidebar li {
         list-style-position: outside;
     } 
-
   }
