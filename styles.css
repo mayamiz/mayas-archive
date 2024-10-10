@@ -118,12 +118,7 @@
   
   #leftSidebar li {
     list-style: url("strawberry.gif");
-    list-style-position: inside;
   }
-
-#rightSidebar li {
-    list-style-position: inside;
-} 
   
   #leftSidebar h2 {
       text-align: center;
