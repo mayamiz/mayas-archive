@@ -151,6 +151,10 @@
       display: flex;
       box-shadow: 0 0 0 2px rgb(202, 92, 202), 8px 8px 0 0 rgb(202, 92, 202);
   }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
   
   h1,
   h2,
@@ -200,8 +204,6 @@ p {
     height:30%;
     vertical-align: middle;
 }
-  
-  /* CSS for extras */
   
   #topBar {
       width: 100%;
