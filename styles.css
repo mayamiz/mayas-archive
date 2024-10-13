@@ -252,8 +252,8 @@ p {
         font-size: 15px;
     }
     main {
-        background-image: none;
         background-color: #8967B3;
+        padding: 0;
     }
     #abutton {
         width: 10vw;
@@ -266,5 +266,9 @@ p {
     }
     aside ul {
         flex: 1;
+    }
+    aside {
+      width: auto;
+      padding: auto;
     }
   }
