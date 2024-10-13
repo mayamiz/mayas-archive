@@ -108,7 +108,9 @@
       font-size: smaller;
       border: 10px rgb(202, 92, 202);
       border-style: none groove groove groove;
-      margin: 0 auto;  
+      margin: 0px; 
+      text-align: center;
+      list-style: url("strawberry.gif");
   }
   
   main {
@@ -120,23 +122,16 @@
       flex: 1;
       padding: 20px;
       order: 2;
+      
   }
   
   #leftSidebar {
       order: 1;     
   }
   
-  #leftSidebar li {
-    list-style: url("strawberry.gif");
-  }
-  
-  #leftSidebar h2 {
-      text-align: center;
-  }
   
   #rightSidebar {
       order: 3;
-      list-style: url("strawberry.gif");
   }
      
       
@@ -270,5 +265,6 @@ p {
     aside {
       width: auto;
       padding: auto;
+      max-width: 200px;
     }
   }
