@@ -11,13 +11,13 @@
   * {
     box-sizing: border-box;
     cursor: url('cursor_point1a.cur'), url('cursor_point1a.gif'), default;
+    text-decoration: none;
   }
 
   body {
       font-family: 'serverMono', sans-serif;
       margin: 0 auto;
       background: pink;
-      text-decoration: none;
       
   }
   
@@ -90,6 +90,10 @@
   
   #navbar li a:hover {
       text-decoration: underline;
+  }
+
+  aside li a:hover {
+    text-decoration: underline;
   }
   
   #flex {
