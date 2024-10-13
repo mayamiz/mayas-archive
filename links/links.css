@@ -2,49 +2,65 @@
 	box-sizing: border-box;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  background: rgb(255, 255, 255);
-  position: relative;
-  display: inline-block;
-}
-
 body {
   background-image: url(sky.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 #wrapper {
-	max-width: 800px;
 	margin: auto;
-	text-align: center;
-	padding: 5px;
-  text-align: center;
+	padding-top: 10px;
+  aspect-ratio: auto;
 }
 
 #home {
-  top: 10px;
+  width: 80px;
+  height: 50px;
   text-align: center;
+  background-color: pink;
 }
-#header {
-    background-size: 100%;
-    width: 100%;
-    height: 50px;
-    position: center;
-    border-radius: 10px;
-    text-align: center;
 
+#header {
+  height: auto;
+      background-color: #8967B3;
+      margin: 15px auto;
+      padding: 20px;
+      border: 10px rgb(202, 92, 202);
+      border-style: groove;
+      max-width: 900px;
+      aspect-ratio: auto;
+      font-family: monoSpace;
+}
+
+#header a {
+  font-size: 15px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+}
+
+#header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#header h1 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
 }
 
 .container {
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	text-align: center;
+  aspect-ratio: auto;
+  max-width: 900px;
+  margin: 15px auto;
+text-align: center;
+padding: 10px;
   overflow: auto;
   --r: 11px;
     padding: calc(2 * var(--r));
@@ -55,13 +71,14 @@ body {
         50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r));
 }
 
-.col {
-	position: fixed;
-	width: 88px;
-	height: 30px;
-	left: 10px;
-  background: plum;
-  border: 2px solid black;
+.container button {
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  background: rgb(255, 255, 255);
+  position: relative;
+  display: inline-block;
 }
 
 ul {
@@ -85,9 +102,7 @@ button h1:hover {
       text-decoration: none;
     }
 
-    a:hover {
-      text-decoration: underline overline 3px rgb(163, 100, 204);
-    }
+    
     h1 {
       font-size: 20px;
       color: rgb(150, 62, 131);
@@ -122,6 +137,27 @@ button h1:hover {
         height: 80px;
         margin: auto;
       }
+
+      .hvr-grow {
+        display: inline-block;
+        vertical-align: middle;
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        transition-duration: 0.3s;
+        transition-property: transform;
+    }
+    
+    .hvr-grow:hover,
+    .hvr-grow:focus,
+    .hvr-grow:active {
+        transform: scale(1.1);
+    }
+
+
+
+
       @media only screen and (max-width: 800px) {
           h1 {
             font-size: 20px;
