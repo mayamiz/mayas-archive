@@ -61,7 +61,6 @@
   
   
   #navbar {
-      height: auto;
       background-color: #8967B3;
       margin: 0;
       padding-bottom: 10px;
@@ -80,7 +79,7 @@
   }
   
   #navbar li {
-      padding-top: 12px;
+      padding-top: 15px;
   }
   #navbar li a {
       color: #00e760;
@@ -245,6 +244,8 @@ p {
   @media only screen and (max-width: 750px) {
     #navbar li a {
         font-size: 15px;
+        display: flex;
+        margin-left: 17px;
     }
     main {
         background-color: #8967B3;
