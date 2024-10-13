@@ -33,3 +33,12 @@ function myFunction() {
       x.style.display = "none";
     }
   } 
+
+  function myFunction4() {
+    var x = document.getElementById("useful");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  } 
