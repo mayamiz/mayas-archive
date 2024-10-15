@@ -31,9 +31,12 @@
   }
 
   #ephemera {
+    width: 250px;
+    height: 300px;
     float: right;
-    margin-top: 100px;
-    margin-right: -300px;
+    margin-right: -180px;
+    background-image: url(grandma.png);
+    background-size: 250px;
   }
 
   body {
@@ -256,6 +259,7 @@ p {
   }
 
 
+
   @media only screen and (max-width: 750px) {
     #navbar li a {
         font-size: 15px;
@@ -284,6 +288,7 @@ p {
     .floaters {
       display: none;
     }
+
   }
 
   @media only screen and (max-width: 500px) {
