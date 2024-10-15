@@ -261,6 +261,7 @@ p {
 
 
   @media only screen and (max-width: 750px) {
+   
     #navbar li a {
         font-size: 15px;
         display: flex;
@@ -285,9 +286,17 @@ p {
       max-width: 200px;
     }
 
-    .floaters {
-      display: none;
-    }
+    #container {
+      order: 1;
+      flex-wrap: nowrap;
+  }
+
+.floaters {
+  order: 4;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
   }
 
@@ -295,6 +304,5 @@ p {
   main {
     background-color: #8967B3;    
     background-image: none;
-    padding: 0;
 }
   }
