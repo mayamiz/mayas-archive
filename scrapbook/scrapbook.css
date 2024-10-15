@@ -1,0 +1,33 @@
+* {
+	display: border-box;	
+}
+
+.container {
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+  overflow: hidden;
+}
+
+#wrapper {
+	background-color: white;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+img {
+    width: 800px;
+    height: 500px;
+}
+
+.hidden {
+    display: none;
+}
