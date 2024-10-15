@@ -233,7 +233,9 @@ p {
       font-size: smaller;
   }
   
-
+.floaters {
+  font-size: 15px;
+}
   .tooltip {
     position: relative;
     display: inline-block;
