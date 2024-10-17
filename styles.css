@@ -236,6 +236,29 @@ p {
 .floaters {
   font-size: 15px;
 }
+
+
+#statuscafe {
+  padding: .5em;
+  background-color: #624E88;
+   border: 1px solid #4b0250;
+}
+#statuscafe-username {
+  margin-bottom: .5em;
+  color: rgb(152, 255, 255);
+}
+#statuscafe-content {
+  margin: 0 1em 0.5em 1em;
+  color: white;
+  font-family: 'emilysCandy', sans-serif;
+}
+
+
+
+
+
+
+
   .tooltip {
     position: relative;
     display: inline-block;
@@ -260,6 +283,14 @@ p {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+
+
+
+
+
+
+
 
   @media only screen and (max-width: 1300px) {
   #ephemera {
@@ -310,3 +341,4 @@ p {
     padding: 0;
 }
   }
+
