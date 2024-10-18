@@ -176,6 +176,10 @@
   footer a:hover {
     text-decoration: underline;
   }
+
+  #guestbook {
+    margin: auto;
+  }
   
   h1,
   h2,
@@ -312,7 +316,7 @@ p {
     #navbar li a {
         font-size: 15px;
         display: flex;
-        margin-left: 15px;
+        margin: auto;
     }
 
     #abutton {
