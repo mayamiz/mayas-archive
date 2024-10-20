@@ -43,7 +43,12 @@
   body {
       font-family: 'serverMono', sans-serif;
       margin: 0 auto;
-      background-color: rgb(202, 94, 112);
+      width: 100vw;
+      height: 100vh;
+      background-image: url(postcard.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
   }
   
   h1 {
