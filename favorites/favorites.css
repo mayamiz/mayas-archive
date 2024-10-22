@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    cursor: url('cursor_point1a.cur'), url('cursor_point1a.gif'), default;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(102, 192, 233);
+}
+
+h1 {
+      line-height: 50px;
+      margin: 0;
+      font-size: 25px;
+      color: rgb(173, 82, 158);
+}
+
+li {
+    color: rgb(172, 35, 165);
+    font-size: 17px;
+}
