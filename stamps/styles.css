@@ -46,9 +46,9 @@ body {
     --r: 11px;
     padding: calc(2 * var(--r));
     background: 
-      radial-gradient(var(--r),#0000 98%,#fff) round
+      radial-gradient(var(--r),#ffffff00 98%, #b480f0) round
         calc(-1.5 * var(--r)) calc(-1.5 * var(--r)) / calc(3 * var(--r)) calc(3 * var(--r)),
-      linear-gradient(#fff 0 0) no-repeat
+      linear-gradient(#b480f0 0 0) no-repeat
         50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r));
 }
 
@@ -119,9 +119,9 @@ body {
   }
     #stamps img {
       margin: auto;
-      box-shadow: 3px 3px 8px 0px black;
+      
       height: 100px;
-      width: 150px;
+      width: 160px;
     }
   
 
