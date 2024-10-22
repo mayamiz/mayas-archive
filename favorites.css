@@ -1,3 +1,15 @@
+
+@font-face {
+    font-family: serverMono;
+    src: url('ServerMono-Regular.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: emilysCandy;
+    src: url('EmilysCandy-Regular.ttf') format('truetype');
+  }
+  
+
 * {
     box-sizing: border-box;
     cursor: url('cursor_point1a.cur'), url('cursor_point1a.gif'), default;
@@ -9,6 +21,7 @@ body {
 }
 
 h1 {
+    font-family: emilysCandy;
       line-height: 50px;
       margin: 0;
       font-size: 25px;
@@ -17,5 +30,6 @@ h1 {
 
 li {
     color: rgb(172, 35, 165);
-    font-size: 17px;
+    font-size: 16px;
+    font-family: serverMono;
 }
