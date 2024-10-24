@@ -10,16 +10,16 @@ body {
 }
 
 #wrapper {
-	margin: auto;
-	padding-top: 10px;
-  aspect-ratio: auto;
+	padding-top: 0;
 }
 
 #home {
   width: 80px;
-  height: 50px;
+  height: 40px;
   text-align: center;
   background-color: pink;
+  padding: 0;
+  margin-top: -50px;
 }
 
 #header {
@@ -27,9 +27,9 @@ body {
       background-color: #8967B3;
       margin: 15px auto;
       padding: 20px;
-      border: 10px rgb(202, 92, 202);
-      border-style: groove;
-      max-width: 900px;
+      border: 10px groove rgb(202, 92, 202);
+      max-width: 90vw;
+      height: 100px;
       aspect-ratio: auto;
       font-family: monoSpace;
 }
@@ -57,11 +57,10 @@ body {
 
 .container {
   aspect-ratio: auto;
-  max-width: 900px;
-  margin: 15px auto;
+  margin: auto;
+  padding: auto;
+  max-width: 90vw;
 text-align: center;
-padding: 10px;
-  overflow: auto;
   --r: 11px;
     padding: calc(2 * var(--r));
   background: 
@@ -99,14 +98,19 @@ li {
   max-width: 400px;
 }
 
+li a:hover {
+ font-size: 20px;
+}
+
 button h1:hover {
   text-decoration: underline 3px rgb(156, 8, 255);
 }
 
     a {
       font-size: 18px;
-      color: rgb(135, 60, 185);
+      color: rgb(136, 35, 252);
       text-decoration: none;
+      font-weight: 900;
     }
 
     
@@ -123,7 +127,7 @@ button h1:hover {
     
       footer {
         background-color: #8967B3;
-        max-width: 900px;
+        max-width: 90vw;
         height: 100px;
         padding: 20px;
         margin: 15px auto;
