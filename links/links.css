@@ -92,10 +92,12 @@ li {
   list-style-position: inside;
   border: 5px inset rgb(194, 81, 194);
   border-radius: 5px;
-  background-color: rgb(237, 220, 241);
+  background-color: #eecbff;
   padding: 15px;
   margin-top: 15px;
   max-width: 400px;
+  color: #b139cf;
+  font-weight: bold;
 }
 
 li a:hover {
@@ -108,7 +110,7 @@ button h1:hover {
 
     a {
       font-size: 18px;
-      color: rgb(136, 35, 252);
+      color: #7e18ad;
       text-decoration: none;
       font-weight: 900;
     }
@@ -124,6 +126,7 @@ button h1:hover {
       color: rgb(252, 112, 189);
       margin: auto;
     }
+
     
       footer {
         background-color: #8967B3;
