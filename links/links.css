@@ -78,18 +78,25 @@ padding: 10px;
   border: none;
   background: rgb(255, 255, 255);
   position: relative;
-  display: inline-block;
 }
 
-ul {
-  display: none;
+.link {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      flex-direction: row;
+      flex-flow: row wrap;
+      display: none;
 }
 
 li {
   list-style: url("strawberry.gif");
   list-style-position: inside;
-  margin: auto;
-  padding: none;
+  border: 5px inset rgb(194, 81, 194);
+  border-radius: 5px;
+  background-color: rgb(237, 220, 241);
+  padding: 15px;
+  margin-top: 15px;
+  max-width: 400px;
 }
 
 button h1:hover {
@@ -106,13 +113,11 @@ button h1:hover {
     h1 {
       font-size: 20px;
       color: rgb(150, 62, 131);
-      text-align: center;
       margin: auto;
     }
     h2 {
       font-size: 15px;
       color: rgb(252, 112, 189);
-      text-align: center;
       margin: auto;
     }
     
