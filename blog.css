@@ -7,7 +7,16 @@
   src: url('Autumn\ in\ September.ttf')format('truetype');
 }
 
+@font-face {
+  font-family: pepper;
+  src: url('PeperritoOrnaments-Regular.ttf')format('truetype');
+}
 
+@font-face {
+  font-family: lemon;
+  src: url('Foggy\ Cemetery.ttf')format('truetype');
+  font-weight: 800;
+}
 
 body {
   background-image: url(sky.jpg);
@@ -96,10 +105,15 @@ padding: 10px;
       margin: 0;
     }
     h2 {
-      font-size: 15px;
+      font-size: 16px;
       color: rgb(145, 61, 145);
       text-align: center;
       margin: 2em;
+      font-family: lemon;
+    }
+    h3 {
+      font-family: pepper;
+      font-size: 40px;
     }
     
 
