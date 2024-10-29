@@ -181,6 +181,11 @@
     text-decoration: underline;
   }
 
+  footer p {
+    font-size: 12px;
+    margin: auto;
+  }
+
   #guestbook {
     margin: auto;
   }
