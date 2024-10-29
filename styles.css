@@ -1,11 +1,12 @@
 @font-face {
-    font-family: serverMono;
-    src: url('EmilysCandy-Regular.ttf') format('truetype');
-  }
-  
-  @font-face {
     font-family: emilysCandy;
     src: url('EmilysCandy-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: foggy;
+    src: url('Foggy\ Cemetery.ttf')format('truetype');
+    font-weight: 1000;
   }
   
   * {
@@ -36,7 +37,7 @@
   
 
   body {
-      font-family: 'serverMono', sans-serif;
+      font-family: foggy;
       margin: 0 auto;
       width: 100vw;
       height: 100vh;
@@ -130,7 +131,7 @@
       background-color: #8967B3;
       width: 220px;
       padding: 15px;
-      font-family: 'emilysCandy', sans-serif;
+      font-family: foggy;
       font-size: smaller;
       border: 10px groove rgb(202, 92, 202);
       margin: 0; 
@@ -249,29 +250,6 @@ p {
 .floaters {
   font-size: 15px;
 }
-
-
-#statuscafe {
-  padding: .5em;
-  background-color: #624E88;
-   border: 1px solid #4b0250;
-}
-#statuscafe-username {
-  margin-bottom: .5em;
-  color: rgb(152, 255, 255);
-}
-#statuscafe-content {
-  margin: 0 1em 0.5em 1em;
-  color: white;
-  font-family: 'emilysCandy', sans-serif;
-}
-
-
-
-
-
-
-
   .tooltip {
     position: relative;
     display: inline-block;
@@ -299,7 +277,21 @@ p {
 
 
 
-
+  #statuscafe {
+    padding: .5em;
+    background-color: #624E88;
+     border: 1px solid #4b0250;
+  }
+  #statuscafe-username {
+    margin-bottom: .5em;
+    color: rgb(152, 255, 255);
+  }
+  #statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    color: white;
+    font-family: foggy;
+  }
+  
 
 
 
