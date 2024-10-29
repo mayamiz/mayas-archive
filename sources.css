@@ -2,38 +2,77 @@
     display: border-box;
 }
 
-li {
-    list-style-type: none;
+@font-face {
+  font-family: foggy;
+  src: url('Foggy\ Cemetery.ttf')format('truetype');
+  font-weight: 1000;
+}
+
+body {
+  background-image: url(sky.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#wrapper {
+	margin: auto;
+	padding-top: 10px;
+    aspect-ratio: auto;
+}
+#header {
+    height: auto;
+      background-color: #8967B3;
+      margin: 15px auto;
+      padding: 20px;
+      border: 10px rgb(202, 92, 202);
+      border-style: groove;
+      max-width: 900px;
+      aspect-ratio: auto;
+      font-family: monoSpace;
+}
+
+#header ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      justify-content: space-evenly;
+}
+
+.container {
+  aspect-ratio: auto;
+  max-width: 900px;
+  margin: 15px auto;
+  Min-height: 50svh;
+padding: 10px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-flow: column wrap;
+  gap: 40px;
+  --r: 11px;
+  padding: calc(2 * var(--r));
+  background: 
+    radial-gradient(var(--r),#0000 98%,#fff) round
+      calc(-1.5 * var(--r)) calc(-1.5 * var(--r)) / calc(3 * var(--r)) calc(3 * var(--r)),
+    linear-gradient(#fff 0 0) no-repeat
+      50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r));
 }
 
 
- .book {
-    border: 7px solid black;
-    background-color: white;
-    border-radius: 15px;
-    padding: 0 4px;
-    width: 500px; /* adjust size */
-    max-width: 100%;
-    aspect-ratio: 3 / 2;
-    display: flex;
-  }
-  .pageL,	.pageR {
-    height: 100%;
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    border-radius: 10px;
-  }
-  .pageL {
-    border-left: 1px grey solid;
-  }
-  .pageR { 
-    border-right: 1px grey solid;
-  }
-  .seam {
-    width: 7px;
-    background:
-      linear-gradient(to right,
-      white, grey, white);
-  }
-      
+li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+a {
+  font-size: 20px;
+  color: pink;
+  font-family: foggy;
+}
+
+h1 {
+  font-size: 25px;
+}

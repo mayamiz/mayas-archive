@@ -1,12 +1,12 @@
 @font-face {
-    font-family: emilysCandy;
-    src: url('EmilysCandy-Regular.ttf') format('truetype');
+    font-family: bubblegumSans;
+    src: url('BubblegumSans-Regular.otf') format('opentype');
+      font-weight: 400;
   }
 
   @font-face {
-    font-family: foggy;
-    src: url('Foggy\ Cemetery.ttf')format('truetype');
-    font-weight: 1000;
+    font-family: espresso;
+    src: url('EspressoDolce.ttf')format('truetype');
   }
   
   * {
@@ -37,7 +37,7 @@
   
 
   body {
-      font-family: foggy;
+      font-family: espresso;
       margin: 0 auto;
       width: 100vw;
       height: 100vh;
@@ -68,7 +68,6 @@
   
   #container a {
       color: white;
-      font-weight: bold;
   }
   
   #header {
@@ -93,7 +92,7 @@
       padding-bottom: 10px;
       border: 10px groove rgb(202, 92, 202);
       width: auto;
-      font-family: emilysCandy;
+      font-family: bubblegumSans;
       margin-bottom: 10px;
       border-radius: 10px;
   }
@@ -129,10 +128,10 @@
   
   aside {
       background-color: #8967B3;
+      font-size: 15px;
       width: 220px;
       padding: 15px;
-      font-family: foggy;
-      font-size: smaller;
+      font-family: espresso;
       border: 10px groove rgb(202, 92, 202);
       margin: 0; 
       text-align: center;
@@ -313,7 +312,7 @@ p {
     }
     
     #navbar li a {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #abutton {
