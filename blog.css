@@ -2,6 +2,13 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+  font-family: autumn;
+  src: url('Autumn\ in\ September.ttf')format('truetype');
+}
+
+
+
 body {
   background-image: url(sky.jpg);
   background-size: 100% 100%;
@@ -35,20 +42,50 @@ body {
 }
 
 .container {
-    max-width: 900px;
-    min-height: 500px;
-    margin: 15px auto;
-	text-align: center;
-	padding: 10px;
-    background-image: url(notebook.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    overflow: hidden;
+  aspect-ratio: auto;
+  max-width: 900px;
+  margin: 15px auto;
+  Min-height: 50svh;
+padding: 10px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-flow: column wrap;
+  gap: 40px;
+  --r: 11px;
+  padding: calc(2 * var(--r));
+  background: 
+    radial-gradient(var(--r),#0000 98%,#fff) round
+      calc(-1.5 * var(--r)) calc(-1.5 * var(--r)) / calc(3 * var(--r)) calc(3 * var(--r)),
+    linear-gradient(#fff 0 0) no-repeat
+      50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r));
 }
 
+.item {
+  aspect-ratio: auto;
+  min-height: 25vh;
+  display: flex;
+  margin: auto;
+  padding: 1em;
+  border: 1em solid transparent;
+  background: linear-gradient(#f0e5d1, #f0e5d1) padding-box, 
+    repeating-linear-gradient(-45deg, red 0, red 12.5%, #f0e5d1 0, #f0e5d1 25%, #58a 0, #58a 37.5%, #f0e5d1 0, #f0e5d1 50%) 0 / 7em 7em;
+}
+
+.item h1 {
+  color: purple;
+  font-family: autumn;
+}
+
+.item a {
+  font-size: 20px;
+  color: purple;
+  font-family: autumn;
+}
     a {
       font-size: 15px;
-      color: rgb(255, 255, 255);
+      color: white;
       text-decoration: none;
     }
 
@@ -56,13 +93,13 @@ body {
       font-size: 20px;
       color: rgb(255, 255, 255);
       text-align: center;
-      margin: auto;
+      margin: 0;
     }
     h2 {
       font-size: 15px;
-      color: rgb(255, 255, 255);
+      color: rgb(145, 61, 145);
       text-align: center;
-      margin: auto;
+      margin: 2em;
     }
     
 
