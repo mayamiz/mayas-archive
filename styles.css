@@ -18,10 +18,14 @@
   #wrapper {
     max-width: 1000px;
     margin: auto;
-    Min-height: 40svh;
     flex-direction: vertical;
     aspect-ratio: auto;
-    overflow: hidden;
+    overflow: auto;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
   
 
@@ -186,6 +190,19 @@
     margin: auto;
   }
 
+  .bottom {
+    background-color: #8967B3;
+      max-width: 900px;
+      height: 100px;
+      padding: 25px;
+      margin: 10px auto auto auto;
+      text-align: center;
+      display: flex;
+      border: 10px groove rgb(202, 92, 202);
+      border-radius: 10px;
+
+  }
+
   #guestbook {
     margin: auto;
   }
@@ -198,11 +215,10 @@
   
 p {
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 1em;
 }
   
   strong {
-      /* this styles bold text */
       color: #870b8d;
   }
   
@@ -223,6 +239,7 @@ p {
 
   .box p {
     text-align: center;
+    font-size: 0.5em;
   }
   
 
@@ -245,10 +262,8 @@ p {
       padding: 10px;
       font-size: smaller;
   }
-  
-.floaters {
-  font-size: 15px;
-}
+
+
   .tooltip {
     position: relative;
     display: inline-block;
@@ -294,15 +309,7 @@ p {
 
 
 
-  @media only screen and (max-width: 1300px) {
-  #ephemera {
-    transform-origin: left top;
-    transform:scale(0.4);
-    left: 0px;
-    margin: 0;
-  }
-  }
-  
+
 
  
  
