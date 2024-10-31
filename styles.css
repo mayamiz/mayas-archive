@@ -82,16 +82,22 @@
       border-radius: 10px;
       aspect-ratio: auto;
       margin: auto auto 10px auto;
-     
       background-color: #8967B3;
   }
 
-  #header h1 {
-    font-size: 40px;
-    font-family: bubblegumSans;
-    margin: 0;
+  #header ul {
+    display: flex;
+      padding: 0;
+      margin: center;
+      justify-content: space-evenly;
+      list-style-type: none;
+      font-family: bubblegumSans;
   }
-  
+  #header li {
+    color: #ffffff;
+      text-decoration: none;
+      font-size: 2.5em;
+  }
   
   #navbar {
       background-color: #8967B3;
