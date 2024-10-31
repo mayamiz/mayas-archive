@@ -252,6 +252,12 @@ p {
     height:30%;
     vertical-align: middle;
 }
+
+li #frog {
+   margin-top: 10px;
+}
+
+
   
   #topBar {
       width: 100%;
