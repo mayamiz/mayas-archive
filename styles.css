@@ -29,15 +29,7 @@
   }
   
 
-  #ephemera {
-    width: 200px;
-    height: 250px;
-    background-image: url(grandma.png);
-    background-size: 200px;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 14%;
-  }
+ 
   
 
   body {
@@ -56,7 +48,7 @@
       font-size: 25px;
     }
   
-  #container {
+  .container {
       aspect-ratio: auto;
       max-width: 900px;
       margin: auto;
@@ -70,7 +62,7 @@
           50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r));    
   }
   
-  #container a {
+  .container a {
       color: white;
   }
   
