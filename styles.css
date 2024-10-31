@@ -76,18 +76,20 @@
   
   #header {
       max-width: 900px;
-      height: 100px;
+      height: 90px;
       border: 10px groove;
       border-color: rgb(202, 92, 202);
       border-radius: 10px;
       aspect-ratio: auto;
       margin: auto auto 10px auto;
+     
       background-color: #8967B3;
   }
 
   #header h1 {
     font-size: 40px;
     font-family: bubblegumSans;
+    margin: 0;
   }
   
   
