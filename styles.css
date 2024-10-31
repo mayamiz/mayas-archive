@@ -29,9 +29,6 @@
   }
   
 
- 
-  
-
   body {
       font-family: espresso;
       margin: 0 auto;
@@ -247,7 +244,7 @@ p {
     width: 3.3em;
     height:25%;
     vertical-align: middle;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 #stamp {
