@@ -206,7 +206,10 @@
       display: flex;
       border: 10px groove rgb(202, 92, 202);
       border-radius: 10px;
+  }
 
+  .bottom a {
+    color: white;
   }
 
   #guestbook {
