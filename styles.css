@@ -16,7 +16,7 @@
   }
 
   #wrapper {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
     flex-direction: vertical;
     aspect-ratio: auto;
@@ -26,6 +26,13 @@
     width: 100vw;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+  }
+  
+  #musicplayer {
+    margin: 0;
+    padding: auto;
+    width: auto;
+    position: absolute;
   }
   
 
@@ -280,9 +287,6 @@ li #frog {
       font-size: smaller;
   }
 
-
-
-
   .tooltip {
     position: relative;
     display: inline-block;
@@ -333,6 +337,11 @@ li #frog {
     main {
       background-image: none;
       background-color: #8967B3;
+    }
+
+    #musicplayer {
+      transform: scale(0.5);
+      margin-left: -40px;
     }
 
   }
