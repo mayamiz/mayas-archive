@@ -140,6 +140,10 @@
       list-style: url("strawberry.gif");
       
   }
+
+  aside ul {
+   list-style: none;
+  }
   
   main {
       background-image: url(floatie.gif);
@@ -167,6 +171,7 @@
       
   
   footer {
+    font-family: foggy;
       background-color: #8967B3;
       max-width: 900px;
       height: 100px;
@@ -185,6 +190,10 @@
   footer p {
     font-size: 12px;
     margin: auto;
+  }
+
+  footer a {
+    color: white;
   }
 
   .bottom {
@@ -228,6 +237,8 @@ p {
 
   .box ul {
     text-align: left;
+    list-style-image: url(strawberry.gif);
+    list-style-position: outside;
   }
 
   .box li {
@@ -252,6 +263,7 @@ p {
     vertical-align: middle;
 }
 
+
 li #frog {
    margin-top: 10px;
 }
@@ -264,6 +276,8 @@ li #frog {
       padding: 10px;
       font-size: smaller;
   }
+
+
 
 
   .tooltip {
@@ -311,6 +325,14 @@ li #frog {
 
 
 
+  @media screen and (max-width: 500px) {
+    
+    main {
+      background-image: none;
+      background-color: #8967B3;
+    }
+
+  }
 
 
  
