@@ -27,14 +27,6 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
-  
-  #musicplayer {
-    margin: 0;
-    padding: auto;
-    width: auto;
-    position: absolute;
-  }
-  
 
   body {
       font-family: espresso;
@@ -339,10 +331,7 @@ li #frog {
       background-color: #8967B3;
     }
 
-    #musicplayer {
-      transform: scale(0.5);
-      margin-left: -40px;
-    }
+   
 
   }
 
