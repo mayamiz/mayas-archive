@@ -270,6 +270,16 @@ li #frog {
    margin-top: 10px;
 }
 
+#secret {
+  list-style-position: inside;
+  margin-right: 25px;
+}
+
+#secret:hover {
+  list-style: url('no.png');
+  text-decoration: none;
+}
+
 
   
   #topBar {

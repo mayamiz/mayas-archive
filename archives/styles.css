@@ -1,6 +1,7 @@
 @font-face {
-  font-family: emilysCandy;
-  src: url('EmilysCandy-Regular.ttf') format('truetype');
+  font-family: bubblegumSans;
+  src: url('BubblegumSans-Regular.otf') format('opentype');
+    font-weight: 400;
 }
 
 
