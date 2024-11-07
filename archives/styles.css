@@ -1,0 +1,155 @@
+@font-face {
+  font-family: emilysCandy;
+  src: url('EmilysCandy-Regular.ttf') format('truetype');
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  min-height: 100vh;
+}
+
+#wrapper {
+        margin: auto;
+        padding-top: 10px;
+        aspect-ratio: auto;
+    }
+
+
+#home {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  background-color: pink;
+  padding: 0;
+  margin-top: -50px;
+}
+
+#header {
+  height: auto;
+  background-color: #8967B3;
+  margin: 15px auto;
+  padding: 20px;
+  border: 10px rgb(202, 92, 202);
+  border-style: groove;
+  max-width: 900px;
+  aspect-ratio: auto;
+  font-family: emilysCandy;
+  border-radius: 10px;
+}
+
+#header a {
+  font-size: 15px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+}
+
+#header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#header h1 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+    aspect-ratio: auto;
+    max-width: 900px;
+    margin: 15px auto;
+    Min-height: 50svh;
+	text-align: center;
+	padding: 10px;
+    overflow: auto;
+    --r: 11px;
+    padding: calc(2 * var(--r));
+    background: 
+      radial-gradient(var(--r),#0000 98%,#fff) round
+        calc(-1.5 * var(--r)) calc(-1.5 * var(--r)) / calc(3 * var(--r)) calc(3 * var(--r)),
+      linear-gradient(#fff 0 0) no-repeat
+        50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r));
+}
+
+.link {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.file {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+li {
+list-style: url("file.png");
+list-style-position: inside;
+padding: 15px;
+margin-top: 15px;
+max-width: 400px;
+color: #2f5bb9;
+font-weight: bold;
+}
+
+li a {
+    color: #7e18ad;
+}
+
+li:hover {
+    list-style: url("hover.png");
+    list-style-position: inside;
+}
+
+  a {
+    font-size: 18px;
+    color: #7e18ad;
+    text-decoration: none;
+    font-weight: 900;
+  }
+
+  
+  h1 {
+    font-size: 20px;
+    color: rgb(150, 62, 131);
+    margin: auto;
+  }
+  h2 {
+    font-size: 15px;
+    color: rgb(252, 112, 189);
+    margin: auto;
+  }
+
+  
+    footer {
+      background-color: #8967B3;
+        max-width: 900px;
+        height: 80px;
+        padding: 20px;
+        margin: 15px auto;
+        text-align: center;
+        display: flex;
+        box-shadow: 0 0 0 2px rgb(202, 92, 202), 8px 8px 0 0 rgb(202, 92, 202);
+        border-radius: 10px;
+        color: white;
+    }
+
+    footer h1, a {
+      color: rgb(255, 255, 255);
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+
