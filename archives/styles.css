@@ -82,40 +82,50 @@ body {
 }
 
 .link {
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-flow: row wrap;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-flow: column wrap;
+  display: flex;
 }
 
 .file {
     flex-wrap: wrap;
     align-items: flex-start;
-    flex-direction: row;
-    flex-flow: row wrap;
+    flex-direction: column;
+    flex-flow: column wrap;
+    display: flex;
 }
 
 li {
 list-style: url("file.png");
 list-style-position: inside;
-padding: 15px;
-margin-top: 15px;
+padding: 5px;
+margin-top: 5px;
 max-width: 400px;
 color: #2f5bb9;
 font-weight: bold;
+}
+
+.file li {
+  list-style: url(download.png);
 }
 
 li a {
     color: #7e18ad;
 }
 
-li:hover {
+.link li:hover {
     list-style: url("hover.png");
     list-style-position: inside;
 }
 
+.file li:hover {
+  list-style: url("click.png");
+}
+
   a {
-    font-size: 18px;
+    font-size: 15px;
     color: #7e18ad;
     text-decoration: none;
     font-weight: 900;
