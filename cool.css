@@ -67,11 +67,6 @@ body {
 }
 
 
-.ascii {
-  font-family: monospace;
-    white-space: pre;
-}
-
     a {
       font-size: 15px;
       color: rgb(255, 255, 255);
