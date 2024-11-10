@@ -62,7 +62,9 @@ body {
       gap: 20px;
 }
 
-
+.divider {
+  border-top: 3px solid #bbb;
+}
 
 
 .ascii {
