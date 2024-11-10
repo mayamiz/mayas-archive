@@ -63,7 +63,12 @@ body {
 }
 
 .divider {
-  border-top: 3px solid #bbb;
+  display:block;
+  border:0px;
+  height:37px;
+  max-width: 900px;
+  background-image: url('adopts/divider.gif');
+
 }
 
 
