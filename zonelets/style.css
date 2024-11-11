@@ -1,0 +1,130 @@
+
+body {
+  background-color: #243c41;
+  background-image: url('bg_dustyTome.jpg');
+	background-position: top;
+  font-size: 18px;
+  font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", Garamond, serif;
+  margin: 0;
+}
+
+p {
+  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+}
+
+hr {
+  border: solid #ccad78;
+  border-width: 2px 0 0 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .small {
+  max-width: 60%;
+  height: auto;
+  }
+}
+.caption {
+  margin-top: 0;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/*#CONTAINER is the rectangle that has contains everything but the background!*/
+#container {
+  margin: 3em auto;
+  width: 90%;
+	max-width: 700px;
+	padding: 1em;
+  background-image: url(paper.jpg);
+  background-size: 100%;
+	border: 16px solid transparent;
+	border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em,
+	              #58a 0, #58a 3em, transparent 0, transparent 4em);
+
+}
+
+#content {
+  padding: 10px 5% 20px 5%;
+  
+}
+
+
+/*HEADER STYLE*/
+#header {
+  background-color: #f0e5d1;
+  padding: 0 5%;
+}
+#header ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+#header li {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+#header li a {
+  color: purple;
+  text-decoration: none;
+}
+#header li a:hover {
+  text-decoration: underline; 
+}
+
+/*POST LIST STYLE*/
+#postlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+
+
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+/*FOOTER STYLE*/
+#footer {
+  font-size: 0.8em;
+  padding: 0 5% 10px 5%;
+}
