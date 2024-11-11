@@ -58,6 +58,18 @@ body {
         gap: 10px;
 }
 
+#cambrian {
+  aspect-ratio: auto;
+  max-width: 900px;
+  margin: 15px auto;
+  Min-height: 50svh;
+text-align: center;
+padding: 10px;
+  overflow: auto;
+  background-color: black;
+  border: 10px solid rgb(255, 0, 0);
+}
+
 
 .divider {
   display:block;
