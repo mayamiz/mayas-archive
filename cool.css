@@ -50,17 +50,14 @@ body {
         calc(-1.5 * var(--r)) calc(-1.5 * var(--r)) / calc(3 * var(--r)) calc(3 * var(--r)),
       linear-gradient(#fff 0 0) no-repeat
         50% / calc(100% - 3 * var(--r)) calc(100% - 3 * var(--r));
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-flow: row wrap;
+        gap: 10px;
 }
 
-
-#stuff {
-       display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      flex-direction: row;
-      flex-flow: row wrap;
-      gap: 20px;
-}
 
 .divider {
   display:block;
@@ -85,8 +82,8 @@ body {
       margin: auto;
     }
     h2 {
-      font-size: 15px;
-      color: rgb(252, 112, 189);
+      font-size: 20px;
+      color: rgb(230, 12, 103);
       text-align: center;
       margin: auto;
     }
