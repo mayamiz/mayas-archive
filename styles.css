@@ -119,10 +119,7 @@
       text-decoration: underline;
   }
 
-  aside li a:hover {
-    text-decoration: underline;
-  }
-  
+ 
   #flex {
       display: flex;
   }
@@ -143,6 +140,11 @@
    list-style: none;
    text-align: left;
   }
+
+  aside li a:hover {
+    text-decoration: underline;
+  }
+  
   
   main {
       background-image: url(floatie.gif);
@@ -265,11 +267,6 @@ p {
     vertical-align: middle;
 }
 
-
-li #frog {
-   margin-top: 10px;
-}
-
 #secret {
   list-style-position: inside;
   margin-right: 25px;
@@ -329,7 +326,7 @@ li #frog {
     margin: 0 1em 0.5em 1em;
     color: white;
     font-family: foggy;
-    font-size: 13px;
+    font-size: 14px;
   }
 
 
@@ -340,6 +337,8 @@ li #frog {
       background-image: none;
       background-color: #8967B3;
     }
+
+   
 
    
 
