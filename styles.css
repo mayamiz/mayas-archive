@@ -136,12 +136,12 @@
       border: 10px groove rgb(202, 92, 202);
       margin: 0; 
       text-align: center;
-      list-style: url("strawberry.gif");
-      
+      list-style: url("strawberry.gif");   
   }
 
   aside ul {
    list-style: none;
+   text-align: left;
   }
   
   main {
