@@ -52,8 +52,8 @@ img {
 /*#CONTAINER is the rectangle that has contains everything but the background!*/
 #container {
   margin: 3em auto;
-  width: 90%;
-	max-width: 700px;
+  aspect-ratio: auto;
+  max-width: 900px;
 	padding: 1em;
   background-image: url(paper.jpg);
   background-size: 100%;
