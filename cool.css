@@ -39,7 +39,7 @@ body {
     aspect-ratio: auto;
     max-width: 900px;
     margin: 15px auto;
-    Min-height: 50svh;
+    max-height: 400px;
 	text-align: center;
 	padding: 10px;
     overflow: auto;
@@ -56,11 +56,25 @@ body {
         align-content: flex-start;
 }
 
+#sticker {
+  background-image: url(adopts/grid.png);
+  background-repeat: repeat;
+  aspect-ratio: auto;
+  max-width: 900px;
+  margin: 15px auto;
+  max-height: 400px;
+text-align: center;
+padding: 10px;
+  overflow: auto;
+  border: 2px dotted black;
+  border-radius: 3px;
+}
+
 #cambrian {
   aspect-ratio: auto;
   max-width: 900px;
   margin: 15px auto;
-  Min-height: 50svh;
+  max-height: 400px;
 text-align: center;
 padding: 10px;
   overflow: auto;
