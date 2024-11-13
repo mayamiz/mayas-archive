@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
   font-family: bubblegumSans;
+  cursor: url('cursor_point1a.cur'), url('cursor_point1a.gif'), default;
 }
 
 @font-face {

@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+  cursor: url('cursor_point1a.cur'), url('cursor_point1a.gif'), default;
 }
 
 body {
