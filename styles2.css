@@ -8,6 +8,13 @@
     font-family: espresso;
     src: url('EspressoDolce.ttf')format('truetype');
   }
+
+  .crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
   
 
 * {
@@ -102,18 +109,7 @@ body {
     }
 
 
-    #linkpage li {
-        list-style: url("strawberry.gif");
-        list-style-position: inside;
-        border: 5px inset rgb(194, 81, 194);
-        border-radius: 5px;
-        background-color: #eecbff;
-        padding: 15px;
-        margin-top: 15px;
-        max-width: 400px;
-        color: #2f5bb9;
-        font-weight: bold;
-      }
+   
 
       
     li a:hover {
@@ -160,63 +156,9 @@ body {
               width: 100px;
             }
     
-            .container button {
-                padding: 10px 20px;
-                font-size: 15px;
-                cursor: pointer;
-                border: none;
-                background: rgb(255, 255, 255);
-                position: relative;
-              }
+           
 
 
-            
-         
-          
-          #linkpage #header a {
-                    font-size: 15px;
-                    color: rgb(255, 255, 255);
-                    text-decoration: none;
-              }
-              #linkpage #header h1 {
-                font-size: 20px;
-                color: rgb(255, 255, 255);
-                text-align: center;
-                margin: auto;
-              }
-                        
-#linkpage  a {
-      font-size: 18px;
-      color: #7e18ad;
-      text-decoration: none;
-      font-weight: 900;
-    }
-
-    #linkpage h1 {
-        font-size: 20px;
-        color: rgb(150, 62, 131);
-        margin: auto;
-      }
-      #linkpage h2 {
-        font-size: 15px;
-        color: rgb(252, 112, 189);
-        margin: auto;
-      }
-        
-       #linkpage img {
-          display: flex;
-          width: 80px;
-          height: 80px;
-          margin: auto;
-        }
- 
-              .link {
-                    flex-wrap: wrap;
-                    align-items: flex-start;
-                    flex-direction: row;
-                    flex-flow: row wrap;
-                    display: none;
-              }
 
            
 
