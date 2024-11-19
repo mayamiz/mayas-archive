@@ -275,16 +275,16 @@ p {
 }
 
 #secret {
-  list-style-position: inside;
-  margin-right: 25px;
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 10px;
+
 }
 
-#secret:hover {
-  list-style: url('no.png');
-  text-decoration: none;
+#secret li + li {
+  margin-top: 20px;
 }
-
-
   
   #topBar {
       width: 100%;
@@ -544,7 +544,7 @@ p {
     
     main {
       background-image: none;
-      background-color: #8967B3;
+      display: none;
     }
 
    
