@@ -534,9 +534,9 @@ p {
     @media screen and (max-width: 800px) {
     
         .playercontainer {
-            position: relative;
             width: 150px;
             height: 150px;
+            position: static;
         }
     }
 
