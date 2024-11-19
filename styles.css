@@ -254,12 +254,17 @@ p {
 
   .box li {
     color: white;
+    font-size: 12px;
   }
 
   .box p {
     text-align: center;
   }
-  
+
+ #button {
+  justify-content: space-evenly;
+ 
+ }
 
   #abutton {
     width: 3.3em;
@@ -283,7 +288,7 @@ p {
 }
 
 #secret li + li {
-  margin-top: 20px;
+  margin-top: 30px;
 }
   
   #topBar {
@@ -324,6 +329,7 @@ p {
     padding: .5em;
     background-color: #624E88;
      border: 1px solid #4b0250;
+     margin-bottom: 20px;
   }
   #statuscafe-username {
     margin-bottom: .5em;
