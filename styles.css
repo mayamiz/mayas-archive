@@ -261,9 +261,18 @@ p {
     text-align: center;
   }
 
- #button {
-  justify-content: space-evenly;
+ #scrollbuttons {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+ }
+ &::-webkit-scrollbar {
+  display: none;
+ }
  
+ .eightyone {
+  flex: 0 0 auto;
  }
 
   #abutton {
