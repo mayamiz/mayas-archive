@@ -93,6 +93,10 @@ text-decoration: none;
 font-weight: 900;
 }
 
+.container a:hover {
+  text-decoration: underline;
+}
+
  li {
 list-style: none;
 border: 5px inset #704214;
@@ -150,7 +154,7 @@ margin: auto;
     width: 250px;
     height: 300px;
    margin: auto;
-    background-color: pink;
+    background-image: url(gold.jpg);
     display: none;
    
   }
