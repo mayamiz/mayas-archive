@@ -146,9 +146,9 @@ p {
   
   aside {
       background-color: #8967B3;
-      width: 220px;
+      width: 210px;
       height: auto;
-      padding: 15px;
+      padding: 10px;
       font-family: espresso;
       border: 10px groove rgb(202, 92, 202);
       margin: 0; 
@@ -552,7 +552,7 @@ p {
         }
     }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 475px) {
     
     main {
       background-image: none;
