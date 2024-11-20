@@ -34,6 +34,13 @@ body {
     overflow-x: hidden;
 }
 
+a {
+  font-size: 16px;
+  color: #a140ad;
+  text-decoration: none;
+  font-weight: 900;
+  }
+
 #header {
   width: fit-content;
 		padding: 10px;
@@ -67,12 +74,12 @@ body {
 .container {
     aspect-ratio: auto;
     max-width: 900px;
-    margin: 100px auto;
+    margin: 45px auto;
 	  padding: 10px;  
     width: 70vw;
-  height: 500px;
-  position: relative;
-  text-align: center;
+    height: 500px;
+    position: relative;
+    text-align: center;
 }
 
 .container button {
@@ -86,12 +93,7 @@ body {
   }
 
             
- a {
-font-size: 18px;
-color: #a140ad;
-text-decoration: none;
-font-weight: 900;
-}
+
 
 .container a:hover {
   text-decoration: underline;
@@ -113,7 +115,7 @@ font-family: Crimson Text;
 }
 
  h1 {
-font-size: 20px;
+font-size: 1.1em;
 color: rgb(255, 255, 255);
 
 }
