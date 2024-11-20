@@ -35,7 +35,7 @@ body {
 }
 
 a {
-  font-size: 16px;
+  font-size: 17px;
   color: #a140ad;
   text-decoration: none;
   font-weight: 900;
@@ -151,15 +151,16 @@ margin: auto;
         overflow: auto;
         display: none;
   }
+ 
 
   .inside {
-    width: 250px;
+    width: 275px;
     height: 300px;
     margin: auto;
     background-image: url(GOLD.jpg);
     background-size: 100%;
     display: none;
-    z-index: 99;
+   
   }
 
 footer a {
