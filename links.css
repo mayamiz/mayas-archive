@@ -157,7 +157,7 @@ margin: auto;
     background-image: url(GOLD.jpg);
     background-size: 100%;
     display: none;
-   
+    z-index: 99;
   }
 
 footer a {
