@@ -243,7 +243,9 @@ p {
   .box {
       background-color: #624E88;
       border: 1px solid #4b0250;
-      padding: 5px;
+   padding: 0;
+   margin: auto;
+      max-width: 140px;
   }
 
   .box ul {
@@ -332,10 +334,13 @@ p {
 
 
   #statuscafe {
-    padding: .5em;
+    padding: 0;
     background-color: #624E88;
      border: 1px solid #4b0250;
+     margin: auto;
      margin-bottom: 20px;
+  
+     max-width: 140px;
   }
   #statuscafe-username {
     margin-bottom: .5em;
@@ -543,7 +548,7 @@ p {
     }
     }
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
     
         .playercontainer {
             width: 150px;
@@ -558,7 +563,6 @@ p {
       background-image: none;
       display: none;
     }
-
    
 
    
