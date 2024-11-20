@@ -153,8 +153,9 @@ margin: auto;
   .inside {
     width: 250px;
     height: 300px;
-   margin: auto;
-    background-image: url(gold.jpg);
+    margin: auto;
+    background-image: url(GOLDjpg);
+    background-size: 100%;
     display: none;
    
   }
