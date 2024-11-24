@@ -265,7 +265,27 @@ body {
               border: 10px solid rgb(9, 51, 16);
             }
   
+
+            #graveyard {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              flex-wrap: wrap;
+              gap: 10px;
+            }
+
+            #graveyard a {
+              color: blue;
+            }
             
+            #graveyard a:hover {
+              text-decoration: underline;
+            }
+
+
+
+
+
            /*Hover stuff*/
 
     .hvr-grow {
