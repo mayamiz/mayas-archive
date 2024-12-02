@@ -146,7 +146,6 @@ p {
   
   aside {
       background-color: #8967B3;
-      width: 200px;
       height: auto;
       padding: 10px;
       font-family: espresso;
@@ -167,8 +166,9 @@ p {
   
   
   main {
-      background-image: url(floatie.gif);
-      width: 250px;
+    background-color: rgb(88, 121, 73);
+      background-image: url(New\ Project.png);
+      width: auto;
        background-size: cover;
        background-position: center;
       background-repeat: no-repeat;
@@ -181,12 +181,14 @@ p {
   }
   
   #leftSidebar {
-      order: 1;     
+      order: 1;
+      width: 250px;     
   }
   
   
   #rightSidebar {
       order: 3;
+      width: 250px;
   }
      
       
@@ -256,7 +258,7 @@ p {
 
   .box li {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .box p {
@@ -334,12 +336,11 @@ p {
 
 
   #statuscafe {
-    padding: 0;
+    padding: 5px;
     background-color: #624E88;
      border: 1px solid #4b0250;
      margin: auto;
      margin-bottom: 20px;
-  
      max-width: 140px;
   }
   #statuscafe-username {
