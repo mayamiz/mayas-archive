@@ -243,6 +243,7 @@ body {
     all: initial;
     font-family: espresso;
     background-color: #0a5f0f;
+    
   }
 
   #frogwrap {
@@ -257,12 +258,12 @@ body {
               aspect-ratio: auto;
               max-width: 100vw;
               margin: 15px auto;
-              Min-height: 50svh;
             text-align: center;
             padding: 10px;
               overflow: auto;
               border-radius: 10px;
               border: 10px solid rgb(9, 51, 16);
+              
             }
   
 
