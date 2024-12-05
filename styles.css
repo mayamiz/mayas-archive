@@ -167,7 +167,7 @@ p {
   
   main {
     background-color: rgb(88, 121, 73);
-      background-image: url(New\ Project.png);
+      background-image: url(115cottagerow.png);
       width: auto;
        background-size: cover;
        background-position: center;
@@ -179,7 +179,18 @@ p {
       border-style: groove none groove none;
       height: auto;
   }
+
+  .town {
+    text-align: center;
+    margin-top: 50vh;
+  }
   
+  .town a {
+    color: purple;
+    border:solid 2px #41403E;
+    background-color: white;
+  }
+
   #leftSidebar {
       order: 1;
       width: 250px;     
