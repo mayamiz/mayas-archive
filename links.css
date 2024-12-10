@@ -133,6 +133,7 @@ h3 {
   margin: auto;
   text-align: center;
   padding: auto;
+  margin-top: 20px;
   overflow: auto;
 }
 
@@ -152,12 +153,12 @@ h3 {
 .item {
   display: block;
   float: left;
-  border: 5px inset #704214;
+  border: 6px inset #920d75;
   border-radius: 5px;
   background-image: url(lined.jpg);
   background-size: 100%;
   padding: 15px;
-  margin-top: 15px;
+  margin-top: 14px;
   margin-left: 15px;
   height: 300px;
   width: 200px;
@@ -173,7 +174,7 @@ h3 {
 }
 
 .item p {
-  padding: 15px 20px;
+  padding: 5px 20px;
   color: rgb(185, 43, 174);
   font-size: 1em;
 }
