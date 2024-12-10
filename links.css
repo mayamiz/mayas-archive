@@ -56,7 +56,9 @@ h3 {
 }
 
 .content {
-  background-image: url(GOLD.jpg);
+  background-color: #51322d;
+  border: 2px solid rgb(56, 33, 4);
+  border-radius: 3px;
   aspect-ratio: auto;
   max-width: 900px;
   margin: auto;
@@ -199,7 +201,7 @@ a {
   color:#000000;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   .item {
     width: 90%;
     max-height: 200px;
