@@ -1,6 +1,6 @@
 
   function myFunction() {
-    var x = document.getElementsByClassName("link")[0];
+    var x = document.getElementsByClassName("category")[0];
     if (x.style.display === "none" || x.style.display === "") {
       x.style.display = "flex";
     } else {
