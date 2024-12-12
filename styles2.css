@@ -218,20 +218,13 @@ body {
               margin: auto;
             }
 
-            #sites {
-              display: flex;
-              flex-wrap: wrap;
-              align-items: flex-start;
-              flex-direction: row;
-              justify-content: space-evenly;
-              height: auto;
-              flex-flow: row wrap;
-              row-gap: 10px;
-            }
+          
 
             #sources li {
               list-style: none;
             }
+
+            
 #sources a {
   color: purple;
 }
