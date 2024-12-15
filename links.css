@@ -174,9 +174,9 @@ h3:hover {
 }
 
 .item p {
-  padding: 5px 20px;
+  padding: 5px 10px;
   color: rgb(185, 43, 174);
-  font-size: 1em;
+  font-size: 0.91em;
 }
 
 .see-also {
