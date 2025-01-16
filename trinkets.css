@@ -1,0 +1,59 @@
+@font-face {
+    font-family: bubblegumSans;
+    src: url('BubblegumSans-Regular.otf') format('opentype');
+      font-weight: 400;
+  }
+
+  @font-face {
+    font-family: espresso;
+    src: url('EspressoDolce.ttf')format('truetype');
+  }
+  
+  * {
+    box-sizing: border-box;
+    cursor: url('cursor_point1a.cur'), url('cursor_point1a.gif'), default;
+    text-decoration: none;
+    font-family: espresso;
+  }
+
+  body {
+    background-color: rgb(209, 181, 218);
+  }
+
+  h1, h2 {
+    color: rgb(211, 132, 171);
+  }
+
+
+
+.shelf {
+    display: block;
+    z-index: 9;
+    content: url("shelves.png");
+    position: relative;
+    width: 941px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .stuffonshelf {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: relative;
+    z-index: 10;
+    margin-bottom: -98px; /* This is what actually puts the stuff ON the shelf instead of hovering above it */
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .example img { 
+    width: 80%;
+  }
+
+  .example2 img { 
+      width: 50%;
+  }
+  
