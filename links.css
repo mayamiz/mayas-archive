@@ -56,7 +56,7 @@ h3 {
 }
 
 .content {
-  background-color: #51322d;
+  background-color: #796fb8;
   border: 2px solid rgb(56, 33, 4);
   border-radius: 3px;
   aspect-ratio: auto;
@@ -139,9 +139,8 @@ h3 {
 
 .category h1 {
   font-family: espresso;
-  color: #694986;
-  border: 2px solid #704214;
-  background-image: url(1.jpg);
+  color: #29209e;
+  background-color: rgb(253, 142, 235);
   width: 120px;
   font-size: 24px;
   text-align: center;
@@ -153,7 +152,7 @@ h3 {
 .item {
   display: block;
   float: left;
-  border: 6px inset #920d75;
+  border: 6px inset #491277;
   border-radius: 5px;
   background-image: url(lined.jpg);
   background-size: 100%;
@@ -179,14 +178,6 @@ h3:hover {
   font-size: 0.91em;
 }
 
-.see-also {
-  border-top: 1px #000000 solid;
-  margin: 5px 10px;
-}
-
-.see-also-link {
-  text-decoration: underline;
-}
 
 
 
