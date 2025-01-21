@@ -163,8 +163,9 @@ p {
   aside li a:hover {
     text-decoration: underline;
   }
-  
-  
+
+
+
   main {
     background-color: rgb(88, 121, 73);
       background-image: url(115cottagerow.png);
@@ -412,11 +413,13 @@ p {
     display: none;
   }
 
- 
-   
-
   }
 
 
- 
+  @media screen and (max-width: 400px) {
+
+    main {
+      display: none;
+    }
+  }
  
