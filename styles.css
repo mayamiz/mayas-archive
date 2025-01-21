@@ -173,22 +173,39 @@ p {
        background-position: center;
       background-repeat: no-repeat;
       flex: 1;
-      padding: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 70px;
+      border: 5px solid rgb(182, 54, 194);
       order: 2;
-      border: 10px rgb(202, 92, 202);
-      border-style: groove none groove none;
-      height: auto;
+      height: 500px;
   }
 
   .town {
     text-align: center;
-    margin-top: 50vh;
+    margin-top: 350px;
+  }
+  .towntext {
+    display: none;
+    text-align: center;
+    margin-top: 350px;
+  }
+  .towntext a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 38, 230);
   }
   
   .town a {
-    color: purple;
-    border:solid 2px #41403E;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 38, 230);
+  }
+  .town a:hover {
+    font-size: 25px;
+
+  }
+  .towntext a:hover {
+    font-size: 25px;
+
   }
 
   #leftSidebar {
@@ -367,13 +384,29 @@ p {
 
 
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 700px) {
     
     main {
       background-image: none;
       display: none;
     }
-   
+
+  .town2 {
+    background-color: rgb(88, 121, 73);
+    background-image: url(115cottagerow.png);
+   width: 70vw;
+     background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px solid rgb(182, 54, 194);
+    height: 400px;
+  }
+
+  .towntext {
+    display: block;
+
+  }
 
    
 
