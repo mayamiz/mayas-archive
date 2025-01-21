@@ -388,26 +388,31 @@ p {
     
     main {
       background-image: none;
-      display: none;
+      background-color: #d082fd;
+      border: none;
     }
 
   .town2 {
     background-color: rgb(88, 121, 73);
     background-image: url(115cottagerow.png);
-   width: 70vw;
+   width: 300px;
      background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
     margin-top: 20px;
     border: 5px solid rgb(182, 54, 194);
-    height: 400px;
+    height: auto;
   }
 
   .towntext {
     display: block;
 
   }
+  .town {
+    display: none;
+  }
 
+ 
    
 
   }
