@@ -179,7 +179,28 @@ h3:hover {
 }
 
 
+.bookmark {
+  display: block;
+  float: left;
+  border: 6px inset #491277;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
+  margin-top: 14px;
+  margin-left: 15px;
+  height: auto;
+  width: auto;
+  color: #694986;
+  font-family: Crimson Text;
+  overflow: hidden;
+  
+}
 
+.bookmark p {
+  padding: 5px 10px;
+  color: rgb(185, 43, 174);
+  font-size: 0.91em;
+}
 
 
 
@@ -198,6 +219,13 @@ a {
     width: 90%;
     max-height: 200px;
     text-align: center;
+  }
+  .bookmark {
+    width: 90%;
+    text-align: center;
+  }
+  .bookmark img {
+    width: 50%;
   }
 
   #container {
