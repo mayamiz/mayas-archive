@@ -24,6 +24,19 @@
     color: rgb(211, 132, 171);
   }
 
+  .wrapper {
+    background-image: url(wood.jpg);
+    width: auto;
+    height: auto;
+  }
+  .container {
+    display: grid;
+    align-content: center;
+    grid-template:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  }
 
 
 .shelf {
