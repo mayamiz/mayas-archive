@@ -1,8 +1,6 @@
 
 body {
   background-color: #243c41;
-  background-image: url('bg_dustyTome.jpg');
-	background-position: top;
   font-size: 18px;
   font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", Garamond, serif;
   margin: 0;
@@ -93,37 +91,3 @@ img {
   text-decoration: underline; 
 }
 
-/*POST LIST STYLE*/
-#postlistdiv ul {
-  font-size: 1.2em;
-  padding: 0;
-  list-style-type: none;
-}
-#recentpostlistdiv ul {
-  font-size: 1.2em;
-  padding: 0;
-  list-style-type: none;
-}
-.moreposts {
-  font-size: 0.8em;
-  margin-top: 0.2em;
-}
-
-
-
-/*NEXT AND PREVIOUS LINKS STYLE*/
-#nextprev {
-  text-align: center;
-  margin-top: 1.4em;
-}
-
-/*DISQUS STYLE*/
-#disqus_thread {
-  margin-top: 1.6em;
-}
-
-/*FOOTER STYLE*/
-#footer {
-  font-size: 0.8em;
-  padding: 0 5% 10px 5%;
-}
