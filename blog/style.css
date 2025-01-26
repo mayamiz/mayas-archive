@@ -1,57 +1,38 @@
+@font-face {
+  font-family: bubblegumSans;
+  src: url('BubblegumSans-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: espresso;
+  src: url('EspressoDolce.ttf')format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  cursor: url('cursor_point1a.cur'), url('cursor_point1a.gif'), default;
+  text-decoration: none;
+}
 
 body {
-  background-color: #243c41;
+  background-color: #8967B3;
   font-size: 18px;
-  font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", Garamond, serif;
+  font-family: espresso;
   margin: 0;
 }
 
-p {
-  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
-}
 
 hr {
   border: solid #ccad78;
   border-width: 2px 0 0 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-.right {
-  float: right;
-  margin-left: 1em;
-}
-.left {
-  float: left;
-  margin-right: 1em;
-}
-.center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-@media only screen and (min-width: 600px) {
-  .small {
-  max-width: 60%;
-  height: auto;
-  }
-}
-.caption {
-  margin-top: 0;
-  font-size: 0.9em;
-  font-style: italic;
-}
-
-/*#CONTAINER is the rectangle that has contains everything but the background!*/
 #container {
   margin: 3em auto;
   aspect-ratio: auto;
-  max-width: 900px;
+  height: auto;
+  max-width: 800px;
 	padding: 1em;
   background-image: url(paper.jpg);
   background-size: 100%;
@@ -63,7 +44,6 @@ img {
 
 #content {
   padding: 10px 5% 20px 5%;
-  
 }
 
 
