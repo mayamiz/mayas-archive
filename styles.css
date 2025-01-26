@@ -7,6 +7,7 @@
   @font-face {
     font-family: espresso;
     src: url('EspressoDolce.ttf')format('truetype');
+    font-weight: 600;
   }
   
   * {
@@ -29,7 +30,7 @@
   }
 
   h2, h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
 p {
@@ -395,6 +396,8 @@ p {
       background-color: #d082fd;
       border: none;
     }
+
+    
 
   .town2 {
     background-color: rgb(88, 121, 73);
